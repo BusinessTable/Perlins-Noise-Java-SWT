@@ -15,3 +15,5 @@ The code runs really poorly with a grid bigger than 100 x 100.
 As a result, a window opens and with rectangle drawn into it, which represent the value of the perlin noise map.
 
 Example:
+
+![Example image not found!](./top/src/main/resources/images/example_result.png)
