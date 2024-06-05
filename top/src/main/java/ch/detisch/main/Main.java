@@ -7,20 +7,23 @@ import ch.detisch.mapgeneration.MapGenerator;
 
 public class Main {
 
-    private static int width = 10;
-    private static int height = 10;
-
+    private final static int MAP_SIZE = 1000;
 
     public static void main(String[] args) {
 
-        MapGenerator mapGenerator = new MapGenerator(width, height);
+        MapGenerator mapGenerator = new MapGenerator(MAP_SIZE);
         mapGenerator.generateMap(1, 5, 0.01f,0.7f, 1);
-        
-        mapGenerator.getMap().forEach(row -> {
-            System.out.println(row + "\n");
-        });
 
-        Davinci davinci = new Davinci();
+        mapGenerator.smoothMap();
+        mapGenerator.smoothMap();
+        mapGenerator.smoothMap();
+        mapGenerator.smoothMap();
+
+        // mapGenerator.getMap().forEach(row -> {
+        // System.out.println(row + "\n");
+        // });
+
+        Davinci davinci = new Davinci(1000, 50, MAP_SIZE);
         
 
         Display.getDefault().timerExec(100, new Runnable() {
