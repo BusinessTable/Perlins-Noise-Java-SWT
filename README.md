@@ -28,4 +28,4 @@ Imagine one would fake a camera movement by moving the grid and redrawing the ma
 
 Imagine this would just work.
 
-![Example image not found!](top\src\main\resources\images\Map.gif)
+![Example image not found!](https://github.com/BusinessTable/Perlins-Noise-Java-SWT/blob/main/top/src/main/resources/images/Map.gif)
