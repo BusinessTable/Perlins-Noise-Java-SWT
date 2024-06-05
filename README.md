@@ -1,4 +1,4 @@
-# Perlins noise Java SWT
+# Simplex noise Java SWT
 
 ## Disclaimer
 
@@ -17,3 +17,15 @@ As a result, a window opens and with rectangle drawn into it, which represent th
 Example:
 
 ![Example image not found!](./top/src/main/resources/images/example_result.png)
+
+# Imagine
+
+Imagine a world where you can generate a map with a seed and a grid size.
+
+Imagine SWT would be a good library to use for this.
+
+Imagine one would fake a camera movement by moving the grid and redrawing the map.
+
+Imagine this would just work.
+
+![Example image not found!](top\src\main\resources\images\Map.gif)

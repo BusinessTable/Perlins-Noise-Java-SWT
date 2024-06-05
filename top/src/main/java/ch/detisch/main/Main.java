@@ -7,12 +7,12 @@ import ch.detisch.mapgeneration.MapGenerator;
 
 public class Main {
 
-    private final static int MAP_SIZE = 1000;
+    private final static int MAP_SIZE = 10000;
 
     public static void main(String[] args) {
 
         MapGenerator mapGenerator = new MapGenerator(MAP_SIZE);
-        mapGenerator.generateMap(1, 5, 0.01f,0.7f, 1);
+        mapGenerator.generateMap(1, 10, 0.05f, 0.8f, 100);
 
         mapGenerator.smoothMap();
         mapGenerator.smoothMap();
